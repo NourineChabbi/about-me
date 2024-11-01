@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(body.png); 
+    background-image: url(Design\ sans\ titre.png); 
     background-repeat: no-repeat;
     background-size: cover;                
     background-position: center; 
@@ -24,7 +24,6 @@ body {
 /*NAV*/
 
 nav{
-  background-color: rgb(0, 132, 255);
   font-family: calibri;
   padding-right: 15px;
   padding-left: 15px;
@@ -36,7 +35,7 @@ nav{
   justify-content: space-between;
 }
 .logo a{
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 600;
   color: white;
 }
@@ -48,7 +47,7 @@ li a{
   width: 200px;
   height: 50px;
   color: white;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   margin-right: 25px;
   background-size: 30px;
@@ -61,16 +60,16 @@ li a:hover{
 /*BUTTON*/
 
 button{
-  width: 150px;
-  height: 50px;
+  width: 170px;
+  height: 60px;
   background-color: white;
   border-radius: 10px;
   border-style: none;
   border-color: wheat;
-  margin-right: 10px;
+  margin-right: 20px;
   cursor: pointer;
   transition: transform 1s ease, box-shadow 1s ease;
-  font-size: large;
+  font-size: larger;
   font-weight: bold;
 }
 button:hover{
@@ -85,7 +84,7 @@ section{
     padding: 20px;
     margin: 20px auto;
     max-width: 1200px;
-    background:url('section.jpg') no-repeat;
+    background-color: antiquewhite;
     background-size: cover;
     border-radius: 10px;
     box-shadow: 5px 15px 15px rgba(128, 128, 128, 0.315);
@@ -141,7 +140,7 @@ footer{
   
   .footer-bottom {
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 20px;
     border-top: 1px solid #444;
     padding-top: 10px;
   }
