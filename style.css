@@ -2,10 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('img.jpg') ; 
+    background-image: url(body.png); 
+    background-repeat: no-repeat;
     background-size: cover;                
     background-position: center; 
+    background-attachment: fixed;
 }
+
 *{
   text-decoration: none;
 }
@@ -75,7 +78,7 @@ button:hover{
 section{
     padding: 20px;
     margin: 20px auto;
-    max-width: 70%;
+    max-width: 1200px;
     background:url('section.jpg') no-repeat;
     background-size: cover;
     border-radius: 10px;
