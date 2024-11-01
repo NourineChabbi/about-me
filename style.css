@@ -1,3 +1,10 @@
+/*HTML*/
+html {
+  scroll-behavior:smooth;
+}
+
+/*BODY*/
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
